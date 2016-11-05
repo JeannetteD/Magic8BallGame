@@ -1,0 +1,41 @@
+/*Graphics on Game updated 11/4/16 - Jeannette Dariano*/
+
+h1{
+  color:black;
+
+}
+
+p {
+  display: none;
+  color: blue;
+  font-size: 30px;
+
+}
+
+body {
+  text-align: center;
+  background-color: grey
+}
+
+@-webkit-keyframes thumb {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.9); }
+	100% { -webkit-transform: scale(1); }
+}
+
+.shake
+{
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 200ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: 4;
+	-webkit-animation-timing-function: linear;
+}
+
+
+.img-circle{
+max-width: 500px;
+border-radius: 475%;
+height: auto;
+position: center;
+}
